@@ -38,6 +38,7 @@ a:hover {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
+  border-bottom: 1px solid black;
 }
 
 .nav .name {
@@ -53,6 +54,17 @@ a:hover {
 }
 .nav a:hover {
   color: white
+}
+
+.nav:hover {
+  border-color: #03512a;
+}
+
+main .experience-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 header {
@@ -103,6 +115,10 @@ header .profile-image:hover {
   border-color: #03512a;
 }
 
+.card a {
+  color: blue;
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
@@ -114,7 +130,7 @@ ul.skills {
   background: #ff9904;
   color: white;
   padding: 5px 10px;
-  margin: 2px;
+  margin: 1px;
 }
 
 .skills li:nth-child(odd) {
